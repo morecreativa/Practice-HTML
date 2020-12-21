@@ -1,12 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+@font-face {
+    src: url("fonts/BMJUA_ttf.ttf");
+    font-family: "What";
+}
 h1 {
     font-size: 64px;
     text-align: center;
 }
 
+h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: normal;
+}
+
 h3 {
+    font-family: 'PT Sans', sans-serif;
     margin-top: 50px;
 }
 
+p {
+    font-family: "What";
+    font-size: 20px;
+    font-weight: lighter;
+}
+
 p i{
+    color: #5B2A20;
     font-size: 24px;
+    font-weight: 900;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    text-align: center;
 }
