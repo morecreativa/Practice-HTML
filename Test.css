@@ -3,12 +3,17 @@
     src: url("fonts/BMJUA_ttf.ttf");
     font-family: "What";
 }
+
 h1 {
+    border: 5px solid red;
+    border-radius:  5rem;
+    padding: 5px;
     font-size: 64px;
     text-align: center;
 }
 
 h2 {
+    border: 5px solid red;
     text-align: center;
     font-size: 32px;
     font-weight: normal;
@@ -20,9 +25,23 @@ h3 {
 }
 
 p {
+    /* 
+    min-height: ; 
+    max-height: ;
+    overflow: hidden or visible or scroll ;
+    */
+    border: 5px solid red;
+    padding: 10px 10px 10px 10px;
+    margin: 50px auto;
     font-family: "What";
     font-size: 20px;
     font-weight: lighter;
+    max-height: 150px;
+    overflow: scroll;
+}
+/* 스크롤바 숨기기 */
+p::-webkit-scrollbar{
+    display: none;
 }
 
 p i{
@@ -43,4 +62,8 @@ a {
 
 .menu {
     text-align: center;
+}
+
+.red {
+    color: red;
 }
